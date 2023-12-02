@@ -1,0 +1,11 @@
+.artigos {
+    display: flex;
+  }
+  
+  .artigos-main {
+    flex: 1;
+  }
+  
+  .artigos-outros {
+    flex: 1;
+  }
