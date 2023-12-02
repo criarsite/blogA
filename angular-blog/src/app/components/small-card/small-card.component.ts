@@ -13,5 +13,7 @@ imgSmalCard:string= ""
 @Input()
 texto:string=""
 @Input()
+imgurl:string=""
+@Input()
 altImage:string=""
 }
