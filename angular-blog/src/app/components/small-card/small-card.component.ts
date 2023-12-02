@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -8,7 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './small-card.component.css'
 })
 export class SmallCardComponent {
-imgSmalCard:string= "https://th.bing.com/th/id/OIP.30aoNxlSnaYrLhBT0O1lzwHaE8?rs=1&pid=ImgDetMain"
-texto:string=" Desenvolvedor Golang: Desenvolvimento de APIs e WebApps usango golang e angular"
-altImage:string="golang Developer"
+  @Input()
+imgSmalCard:string= ""
+@Input()
+texto:string=""
+@Input()
+altImage:string=""
 }
