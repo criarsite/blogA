@@ -1,0 +1,12 @@
+remove o arquivo .spec
+limpa a component.html 
+usando o just color picker 
+alt x sobre a imagem que quer pegar a cor para copiar
+o que for de uso global coloque no style.css  como a cor de fundo do layout
+ng generate component __________ -> cria um novo component 
+ng g c __________ 
+ Angular generate component      pasta       nome do componente
+ ng         g         c        components/      menu-bar 
+ apos criar os componentes passe a rota no app.component.ts usando o import e criando um alias como no exemplo abaixo 
+ import { BigCardComponent } from "./components/big-card/big-card.component";
+ e no decorator @Component em imports passe o alias  BigCardComponent
