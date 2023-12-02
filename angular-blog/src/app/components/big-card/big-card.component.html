@@ -1,8 +1,8 @@
  <div class="container-bigcard">
-    <span>02/12/2023</span>
-    <img src="https://th.bing.com/th/id/R.bb79a099832ae287d3778941b59b5bc5?rik=%2fZCWjB56SYe%2few&pid=ImgRaw&r=0" alt="imagem">
- <h1>  <a href="http://criarsite.github.io">Desenvolvedor Angular</a></h1>
-    <p>Crie aplicações web modernas e dinâmicas usando o framework Angular e outras tecnologias relacionadas, como TypeScript, Node.js ou outros...</p>
+    <span>{{ data }}</span>
+    <img [src]="fotoCard" >
+ <h1>  <a [href]="url">{{cardTitulo}}</a></h1>
+    <p>{{cardDescricao}}</p>
 
  </div>
  

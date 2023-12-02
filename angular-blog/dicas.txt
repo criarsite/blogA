@@ -10,3 +10,8 @@ ng g c __________
  apos criar os componentes passe a rota no app.component.ts usando o import e criando um alias como no exemplo abaixo 
  import { BigCardComponent } from "./components/big-card/big-card.component";
  e no decorator @Component em imports passe o alias  BigCardComponent
+
+ cria o html 
+ crie o css 
+ deixe dinamico
+ para deixar dinamico crie uma propriedade para cada campo que quer deixar dinamico
