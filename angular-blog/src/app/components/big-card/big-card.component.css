@@ -17,6 +17,17 @@
     font-size: small;
     color: white;
   }
+  .container-bigcard > h1{
+    font-weight: bold;
+  
+  }
+  .container-bigcard a{
+   text-decoration: none;
+   color: white;
+   
+  }
+  
+
   
   .container-bigcard p {
     color: white;
